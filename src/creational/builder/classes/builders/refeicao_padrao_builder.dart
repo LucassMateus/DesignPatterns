@@ -52,6 +52,6 @@ class RefeicaoPadraoBuilder implements IRefeicaoBuilder {
 
   @override
   String toString() {
-    return 'RefeicaoVeganaBuilder{_refeicao=${_refeicao.toString()}}';
+    return 'RefeicaoPadraoBuilder{_refeicao=${_refeicao.toString()}}';
   }
 }

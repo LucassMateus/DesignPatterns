@@ -1,8 +1,8 @@
-import '../models/user_model.dart';
+import '../models/usuario_model.dart';
 
 class DataBase {
   static DataBase? _instance;
-  final List<UserModel> users = [];
+  final List<UsuarioModel> users = [];
 
   DataBase._();
 
@@ -14,9 +14,9 @@ class DataBase {
     return _instance!;
   }
 
-  void addUser(UserModel user) => users.add(user);
-  void removeUser(UserModel user) => users.removeWhere((u) => u == user);
-  void updateUser(UserModel user) {
+  void addUsuario(UsuarioModel user) => users.add(user);
+  void removerUsuario(UsuarioModel user) => users.removeWhere((u) => u == user);
+  void atualizarUsuario(UsuarioModel user) {
     for (int i = 0; i < users.length; i++) {
       if (users[i].name == user.name) {
         users[i] = user;
@@ -25,5 +25,5 @@ class DataBase {
     }
   }
 
-  void showUsers() => users.forEach(print);
+  void verUsuarios() => users.forEach(print);
 }

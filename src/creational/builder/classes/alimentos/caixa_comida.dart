@@ -1,4 +1,4 @@
-import '../../interfaces/refeicao.dart';
+import '../../interfaces/i_refeicao.dart';
 import '../refeicao_impl.dart';
 
 class CaixaComida implements IRefeicao {

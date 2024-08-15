@@ -1,4 +1,4 @@
-import '../interfaces/refeicao.dart';
+import '../interfaces/i_refeicao.dart';
 
 abstract class RefeicaoImpl implements IRefeicao {
   final String nome;

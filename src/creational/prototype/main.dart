@@ -1,5 +1,5 @@
-import 'models/circulo.dart';
-import 'models/retangulo.dart';
+import 'classes/circulo.dart';
+import 'classes/retangulo.dart';
 
 void main() {
   final retanguloOriginal = Retangulo(altura: 10, largura: 20, x: 100, y: 100);

@@ -1,4 +1,4 @@
-import '../../interfaces/refeicao_builder.dart';
+import '../../interfaces/i_refeicao_builder.dart';
 import '../alimentos/arroz.dart';
 import '../alimentos/bebida.dart';
 import '../alimentos/caixa_comida.dart';
@@ -49,8 +49,8 @@ class RefeicaoVeganaBuilder implements IRefeicaoBuilder {
     return this._refeicao;
   }
 
-@override
-String toString() {
+  @override
+  String toString() {
     return 'RefeicaoVeganaBuilder{_refeicao=${_refeicao.toString()}}';
   }
 }

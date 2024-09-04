@@ -5,6 +5,6 @@ class CarneVegana extends RefeicaoImpl {
 
   @override
   String toString() {
-    return 'CarneVegetariana(nome: $nome, valor: $valor)';
+    return 'CarneVegana(nome: $nome, valor: $valor)';
   }
 }
